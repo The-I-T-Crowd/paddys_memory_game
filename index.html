@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Paddy's Memory Game</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="setCards()">
+    <div class="flex-row flex-center header-container">
+        <span class="header-text">
+            The Pair Game
+        </span>
+    </div>
+
+    <div class="flex-col flex-center instruction-container">
+        <span class="instruction-text">
+            Click any card to start the game.
+        </span>
+        <label for="levels">Or set difficulty level:</label>
+
+        <select name="level" id="level" onchange="onLevelChange()">
+            <option value="1">Level 1</option>
+            <option value="2">Level 2</option>
+            <option value="3">Level 3</option>
+            <option value="4">Level 4</option>
+            <option value="5">Level 5</option>
+            <option value="6">Level 6</option>
+        </select>
+    </div>
+    <div id="game-container" class="game-container flex-row flex-center">
+
+    </div>
+</body>
+
+</html>

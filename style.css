@@ -1,0 +1,95 @@
+body {
+    background-color: aqua;
+}
+
+.instruction-container,
+.header-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-text {
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+
+.timer,
+.instruction-text {
+    font-size: 18px;
+}
+
+select {
+    width: 150px;
+    align-self: center;
+}
+
+.game-container {
+    height: calc(100vh - 175px);
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+.card_size_1 {
+    height: 300px;
+    min-height: 300px;
+    width: 300px;
+    min-width: 300px;
+}
+
+.card_size_2 {
+    height: 250px;
+    min-height: 250px;
+    width: 250px;
+    min-width: 250px;
+}
+
+.card_size_3 {
+    height: 200px;
+    min-height: 200px;
+    width: 200px;
+    min-width: 200px;
+}
+
+.card_size_4 {
+    height: 175px;
+    min-height: 175px;
+    width: 175px;
+    min-width: 175px;
+}
+
+.card_size_5 {
+    height: 150px;
+    min-height: 150px;
+    width: 150px;
+    min-width: 150px;
+}
+
+.card_size_6 {
+    height: 135px;
+    min-height: 135px;
+    width: 135px;
+    min-width: 135px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center {
+    justify-content: center;
+    text-align: center;
+}
